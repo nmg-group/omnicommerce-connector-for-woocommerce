@@ -22,18 +22,16 @@ No. No es un requisito aunque es altamente recomendable para reducir el impacto 
 Ejemplo de ahorro en rendimiento, sincronizando un catálogo con 500 artículos, cada uno con 5 variantes de talle y/o color.
 
 **Sin este plugin:**
-5 solicitudes para obtener 5 páginas de 100 artículos
-+
-500 solicitudes para obtener las 5 variantes de cada artículo.
-=
+
+5 solicitudes para obtener 5 páginas de 100 artículos + 500 solicitudes para obtener las 5 variantes de cada artículo.
+
 505 solicitudes a tu servidor.
 
 
 **Con este plugin activo:**
-3 solicitudes para obtener 3 páginas de 200 artículos
-+
-3 solicitudes para obtener 3 páginas de 200 variantes
-=
+
+3 solicitudes para obtener 3 páginas de 200 artículos + 3 solicitudes para obtener 3 páginas de 200 variantes
+
 6 solicitudes a tu servidor.
 
 
