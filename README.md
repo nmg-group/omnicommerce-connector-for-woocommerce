@@ -29,14 +29,14 @@ En este ejemplo obtenemos la lista de artículos completa para un catálogo con 
 
 5 solicitudes para obtener 5 páginas de 100 artículos + 500 solicitudes para obtener las 5 variantes de cada artículo.
 
-505 solicitudes a tu servidor / ~ 10 minutos.
+505 solicitudes a tu servidor / ~ 8 minutos.
 
 
 **Con este plugin activo:**
 
 3 solicitudes para obtener 3 páginas de 200 artículos + 3 solicitudes para obtener 3 páginas de 200 variantes
 
-6 solicitudes a tu servidor / ~ 6 segundos.
+6 solicitudes a tu servidor / ~ 30 segundos.
 
 
 **Finalmente**
