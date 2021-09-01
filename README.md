@@ -4,16 +4,20 @@ Qué estoy metiendo en mi web? va a hacer más lento mi sitio? por qué necesito
 
 Todas preguntas válidas, lee más para saber las respuestas.
 
+
 Este plugin tiene el sólo propósito de facilitar el acceso a los datos básicos que Omnicommerce necesita para mantener tu catálogo de productos actualizado.
 
-* Qué hace exactamente?
+**Qué hace exactamente?**
 
 Este código añade un endpoint más (una dirección de API más) a las ya existentes en WooCommerce que nos permite acceder a la lista de todos los productos y variantes de una manera mucho más rápida y con menos solicitudes a tu servidor. Ver ejemplos más abajo.
 
-* Es un **requisito** instalar este plugin?
+**Es un requisito instalar este plugin?**
 
 No. No es un requisito aunque es altamente recomendable para reducir el impacto que nuestra plataforma de integraciones tendrá en el rendimiento de tu sitio.
 
+**Va a poner más lenta mi web?**
+
+No. Este plugin sólo ejecuta *trabajo*, con solicitudes a la base de datos, cuando recibe un llamado desde nuestra plataforma, por lo que su existencia entre tus plugins no enlentece tu web. Por el contrario, reduce la cantidad de veces que tenemos que contactarnos con tu servidor para sincronizar tu catálogo.
 
 
 
