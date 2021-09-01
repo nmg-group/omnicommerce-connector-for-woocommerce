@@ -17,26 +17,26 @@ No. No es un requisito aunque es altamente recomendable para reducir el impacto 
 
 **Va a poner más lenta mi web?**
 
-No. Este plugin sólo ejecuta *trabajo*, con solicitudes a la base de datos, cuando recibe un llamado desde nuestra plataforma, por lo que su existencia entre tus plugins no enlentece tu web. Por el contrario, reduce la cantidad de veces que tenemos que contactarnos con tu servidor para sincronizar tu catálogo.
+No. Este plugin sólo ejecuta *trabajo* (con solicitudes a la base de datos), cuando recibe un llamado desde nuestra plataforma, por lo que su existencia entre tus plugins no enlentece tu web. Por el contrario, reduce la cantidad de veces que tenemos que contactarnos con tu servidor para sincronizar tu catálogo.
 
 
 
 ## Ejemplos de rendimiento
 
-Ejemplo de ahorro en rendimiento, sincronizando un catálogo con 500 artículos, cada uno con 5 variantes de talle y/o color.
+En este ejemplo obtenemos la lista de artículos completa para un catálogo con 500 artículos, cada uno con 5 variantes de talle y/o color.
 
 **Sin este plugin:**
 
 5 solicitudes para obtener 5 páginas de 100 artículos + 500 solicitudes para obtener las 5 variantes de cada artículo.
 
-505 solicitudes a tu servidor.
+505 solicitudes a tu servidor / ~ 10 minutos.
 
 
 **Con este plugin activo:**
 
 3 solicitudes para obtener 3 páginas de 200 artículos + 3 solicitudes para obtener 3 páginas de 200 variantes
 
-6 solicitudes a tu servidor.
+6 solicitudes a tu servidor / ~ 6 segundos.
 
 
 **Finalmente**
