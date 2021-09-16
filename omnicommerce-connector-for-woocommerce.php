@@ -2,7 +2,7 @@
 /**
  * Plugin Name: Omnicommerce connector for WooCommerce
  * Description: Facilita la consulta rápida de SKUs, stocks y precios desde Omnicommerce.
- * Version: 0.1
+ * Version: 1.0
  * Author: Omnicommerce - NMG Group, Inc.
  * Author URI: https://omnicommerce.ar/
  */
