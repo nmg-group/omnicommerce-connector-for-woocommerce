@@ -42,3 +42,7 @@ En este ejemplo obtenemos la lista de artículos completa para un catálogo con 
 **Finalmente**
 
 Todo el código del plugin es público y se encuentra en un único archivo con menos de 100 líneas que puede revisar tu desarrollador web claro.
+
+# Cómo instalarlo?
+
+Podés instalarlo desde la lista de plugins de tu sitio WooCommerce, buscalo como "omnicommerce". Este método es recomendado para recibir las actualizaciones y mejoras de rendimiento más rápidamente.
