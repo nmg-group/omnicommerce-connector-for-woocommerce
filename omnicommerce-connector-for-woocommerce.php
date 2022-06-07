@@ -55,6 +55,9 @@ function get_omc_skus( $request ) {
                     $productos[] = array(
                         'id' => $product->get_id(),
                         'tipo' => $product->get_type(),
+                        'date_created' => $product->get_date_created()->format('Y-m-d H:i:s'),
+                        'date_modified' => $product->get_date_modified()->format('Y-m-d H:i:s'),
+                        'status' => $product->get_status(),
                         'parent_id' => $product->get_parent_id(),
                         'title' => $product->get_title(),
                         'sku' => $product->get_sku(),

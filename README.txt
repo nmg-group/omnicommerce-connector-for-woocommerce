@@ -1,7 +1,7 @@
 === Omnicommerce connector for WooCommerce ===
 Requires at least: 4.7
 Tested up to: 6.0
-Stable tag: 1.0
+Stable tag: 1.1
 Requires PHP: 7.0
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
@@ -23,10 +23,13 @@ A tener en cuenta:
 
 == Para obtener ayuda ==
 
-Comunicarse con soporte técnico a través del website.
+Comunicarse con soporte técnico a través de nuestro website.
 https://omnicommerce.ar
 
 == Changelog ==
 
 = 1.0 =
 * Versión estable inicial.
+
+= 1.1 =
+* Añade fecha y hora de creación y visibilidad.
