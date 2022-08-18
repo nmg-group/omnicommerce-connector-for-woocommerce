@@ -1,7 +1,7 @@
 <?php
 /**
- * Plugin Name: Omnicommerce integración para Dragonfish
- * Description: Mantiene sincronizado el stock, los precios y descarga automáticamente los pedidos en Dragonfish.
+ * Plugin Name: Omnicommerce integración para Lince Indumentaria
+ * Description: Mantiene sincronizado el stock de múltiples locales y depósitos Lince Indumentaria con WooCommerce.
  * Version: 1.0
  * Author: Omnicommerce - NMG Group, Inc.
  * Author URI: https://omnicommerce.ar/
@@ -90,7 +90,7 @@ add_action( 'rest_api_init', function () {
 });
 
 // Add information to contact developers and get help
-add_filter( 'plugin_action_links_omnicommerce-integracion-para-dragonfish/omnicommerce-integracion-para-dragonfish.php', 'omc_goto_link' );
+add_filter( 'plugin_action_links_omnicommerce-integracion-para-lince-indumentaria/omnicommerce-integracion-para-lince-indumentaria.php', 'omc_goto_link' );
 function omc_goto_link( $links ) {
         $omc_goto_link = "<a href='https://omnicommerce.app'>" . __( 'Ir a Omnicommerce' ) . '</a>';
         array_push($links,$omc_goto_link);

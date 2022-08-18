@@ -1,4 +1,4 @@
-=== Omnicommerce integración para Dragonfish ===
+=== Omnicommerce integración para Lince Indumentaria ===
 Requires at least: 4.7
 Tested up to: 6.0
 Stable tag: 1.0
@@ -6,21 +6,19 @@ Requires PHP: 7.0
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
-Mantiene sincronizado el stock, los precios y descarga o factura automáticamente los pedidos en Dragonfish.
+Mantiene sincronizado el stock de múltiples locales y depósitos de Lince Indumentaria con WooCommerce.
 
 
 == Description ==
 
-La integración de Omnicommerce para Dragonfish permite sincronizar múltiples puntos de venta o depósitos de Dragonfish con tus e-commerce. Mantiene sincronizado el stock, los precios y descarga / factura automáticamente los pedidos.
+La integración de Omnicommerce para Lince Indumentaria permite sincronizar múltiples puntos de venta o depósitos con tus e-commerce.
 
 
-¿Qué hace?
+¿Qué hace Omnicommerce?
 
-- Sincroniza el stock de uno o múltiples locales/depósitos
+- Sincroniza el stock de uno o múltiples locales/depósitos.
 
-- Sincroniza una lista de precios con o sin recargo/descuento
-
-- Descarga/factura automáticamente los pedidos
+- Permite asignar inteligentemente los pedidos a las sucursales.
 
 
 (*) Requiere una suscripción de Omnicommerce activa, contactanos para activarla desde [este link](https://omnicommerce.ar/).
@@ -28,19 +26,11 @@ La integración de Omnicommerce para Dragonfish permite sincronizar múltiples p
 
 Características:
 
-- Múltiples locales y depósitos Dragonfish.
+- Múltiples locales y depósitos Lince.
 
 - Sincronización basada en SKU.
 
-- Facturación automática de pedidos web.
-
-- Reglas para facturación selectiva (según forma de pago/entrega).
-
-- Compatible con factura electrónica y manual.
-
-- Asignación inteligente de depósitos (geolocalización, existencias, etc).
-
-- Compensación automática de stock (enviar todo a un depósito para la entrega).
+- Sincronización confiable.
 
 - Stocks de seguridad.
 
