@@ -1,7 +1,7 @@
 <?php
 /**
- * Plugin Name: Omnicommerce connector for WooCommerce
- * Description: Facilita la consulta rápida de SKUs, stocks y precios desde Omnicommerce.
+ * Plugin Name: Omnicommerce integración para Dragonfish
+ * Description: Mantiene sincronizado el stock, los precios y descarga automáticamente los pedidos en Dragonfish.
  * Version: 1.0
  * Author: Omnicommerce - NMG Group, Inc.
  * Author URI: https://omnicommerce.ar/
@@ -90,10 +90,9 @@ add_action( 'rest_api_init', function () {
 });
 
 // Add information to contact developers and get help
-add_filter( 'plugin_action_links_omnicommerce-connector-for-woocommerce/omnicommerce-connector-for-woocommerce.php', 'omc_goto_link' );
+add_filter( 'plugin_action_links_omnicommerce-integracion-para-dragonfish/omnicommerce-integracion-para-dragonfish.php', 'omc_goto_link' );
 function omc_goto_link( $links ) {
-        $omc_plugin_goto_link = "<a href='https://github.com/nmg-group/omnicommerce-connector-for-woocommerce'>" . __( 'Acerca del plugin' ) . '</a>';
         $omc_goto_link = "<a href='https://omnicommerce.app'>" . __( 'Ir a Omnicommerce' ) . '</a>';
-        array_push($links,$omc_plugin_goto_link,$omc_goto_link);
+        array_push($links,$omc_goto_link);
         return $links;
 }
