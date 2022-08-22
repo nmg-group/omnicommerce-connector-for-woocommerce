@@ -6,7 +6,7 @@
  * Author: Omnicommerce - NMG Group, Inc.
  * Author URI: https://omnicommerce.ar/
  */
-function get_omc_skus( $request ) {
+function omc_intLince_get_omc_skus( $request ) {
 
         // Check logged in user
         if (!is_user_logged_in()) {
@@ -85,14 +85,14 @@ function get_omc_skus( $request ) {
 add_action( 'rest_api_init', function () {
     register_rest_route( 'wc/v3', 'omc-skus', array(
         'methods' => 'GET',
-        'callback' => 'get_omc_skus',
+        'callback' => 'omc_intLince_get_omc_skus',
     ));
 });
 
 // Add information to contact developers and get help
-add_filter( 'plugin_action_links_omnicommerce-integracion-para-lince-indumentaria/omnicommerce-integracion-para-lince-indumentaria.php', 'omc_goto_link' );
-function omc_goto_link( $links ) {
-        $omc_goto_link = "<a href='https://omnicommerce.app'>" . __( 'Ir a Omnicommerce' ) . '</a>';
-        array_push($links,$omc_goto_link);
+add_filter( 'plugin_action_links_omnicommerce-integracion-para-lince-indumentaria/omnicommerce-integracion-para-lince-indumentaria.php', 'omc_intLince_goto_link' );
+function omc_intLince_goto_link( $links ) {
+        $omc_intLince_goto_link = "<a href='https://omnicommerce.app'>" . __( 'Ir a Omnicommerce' ) . '</a>';
+        array_push($links,$omc_intLince_goto_link);
         return $links;
 }

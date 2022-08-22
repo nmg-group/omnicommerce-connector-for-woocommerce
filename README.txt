@@ -1,7 +1,7 @@
 === Omnicommerce integración para Lince Indumentaria ===
 Requires at least: 4.7
 Tested up to: 6.0
-Stable tag: 1.0
+Stable tag: 1.1
 Requires PHP: 7.0
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
@@ -21,7 +21,7 @@ La integración de Omnicommerce para Lince Indumentaria permite sincronizar múl
 - Permite asignar inteligentemente los pedidos a las sucursales.
 
 
-(*) Requiere una suscripción de Omnicommerce activa, contactanos para activarla desde [este link](https://omnicommerce.ar/).
+(*) Requiere una suscripción de Omnicommerce activa, contactanos para activarla desde [este link](https://omnicommerce.ar/conectar-lince-con-woocommerce/?utm_source=WordPress&utm_medium=Plugin&utm_campaign=WooCommerce+Lince+plugin).
 
 
 Características:
@@ -38,7 +38,7 @@ Características:
 == Para obtener ayuda ==
 
 Comunicarse con implementaciones/soporte técnico a través de nuestro website.
-https://omnicommerce.ar
+[https://omnicommerce.ar](https://omnicommerce.ar/conectar-lince-con-woocommerce/?utm_source=WordPress&utm_medium=Plugin&utm_campaign=WooCommerce+Lince+plugin)
 
 
 == Changelog ==
