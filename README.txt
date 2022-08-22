@@ -23,7 +23,7 @@ La integración de Omnicommerce para Dragonfish permite sincronizar múltiples p
 - Descarga/factura automáticamente los pedidos
 
 
-(*) Requiere una suscripción de Omnicommerce activa, contactanos para activarla desde [este link](https://omnicommerce.ar/).
+(*) Requiere una suscripción de Omnicommerce activa, contactanos para activarla desde [este link](https://omnicommerce.ar/conectar-dragonfish-con-woocommerce/?utm_source=WordPress&utm_medium=Plugin&utm_campaign=WooCommerce+Dragonfish+plugin).
 
 
 Características:
@@ -48,7 +48,7 @@ Características:
 == Para obtener ayuda ==
 
 Comunicarse con implementaciones/soporte técnico a través de nuestro website.
-https://omnicommerce.ar
+[https://omnicommerce.ar](https://omnicommerce.ar/conectar-dragonfish-con-woocommerce/?utm_source=WordPress&utm_medium=Plugin&utm_campaign=WooCommerce+Dragonfish+plugin)
 
 
 == Changelog ==
