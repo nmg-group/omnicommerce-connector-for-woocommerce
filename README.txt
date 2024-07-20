@@ -1,7 +1,7 @@
 === Omnicommerce integración para Dragonfish ===
 Requires at least: 4.7
 Tested up to: 6.0
-Stable tag: 1.0
+Stable tag: 1.2.1
 Requires PHP: 7.0
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
@@ -12,7 +12,7 @@ Mantiene sincronizado el stock, los precios y descarga o factura automáticament
 == Description ==
 
 La integración de Omnicommerce para Dragonfish permite sincronizar múltiples puntos de venta o depósitos de Dragonfish con tus e-commerce. Mantiene sincronizado el stock, los precios y descarga / factura automáticamente los pedidos.
-
+Admite múltiples depósitos en WooCommerce.
 
 ¿Qué hace?
 
@@ -55,3 +55,9 @@ Comunicarse con implementaciones/soporte técnico a través de nuestro website.
 
 = 1.0 =
 * Versión estable inicial.
+
+= 1.1 =
+* Mejoras y correcciones.
+
+= 1.2 =
+* Soporte para múltiples depósitos.
